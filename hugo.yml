@@ -17,8 +17,8 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: MTOUAA Mourad
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  description: "Personal portfolio/blog"
+  keywords: [Blog, Portfolio, Mtouaa, Mourad]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -34,12 +34,12 @@ params:
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
+  #disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -66,7 +66,7 @@ params:
     imageHeight: 400
     imageTitle: my image
     buttons:
-      - name: Posts
+      - name: Blog
         url: posts
       - name: Tags
         url: tags
@@ -112,13 +112,13 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
     - identifier: blog
       name: Blog
-      url: /blog/
+      url: posts
+      weight: 10
+    - identifier: about
+      name: About
+      url: about
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
