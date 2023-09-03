@@ -6,4 +6,10 @@ ShowToc: false
 
 # About me
 
-I am Mourad MTOUAA, Software Engineer
+I am Mourad MTOUAA, a Software Engineer who is passionate about everything related to Computer Science and electronics :D
+
+I am in love with Open Source culture, Java ecosystem and code in general.
+
+I work daily with containers and DevOps stuff.
+
+Beside coding and software engineering, I am interested in entrepreneurship, literature and history.
